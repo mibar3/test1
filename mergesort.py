@@ -4,11 +4,9 @@ import matplotlib.pyplot as plt
 def assigment(new_list, i, old_list, j):
     new_list[i] = old_list[j]
 
-
 def merge_sort(list_to_sort_by_merge):
     if len(list_to_sort_by_merge) > 1:
-        
-        
+              
         # We define the outer limits and the middle part of the list
         mid = len(list_to_sort_by_merge) // 2
         left = list_to_sort_by_merge[:mid]
@@ -42,9 +40,7 @@ def merge_sort(list_to_sort_by_merge):
             r += 1
             i += 1
 
-
-
-# Create a list full of numbers with two decimals each
+# Create an array with unsorted numbers
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 
 # Plot before the mergeSort function has been called
